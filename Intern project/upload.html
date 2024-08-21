@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Upload Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Upload Document</h1>
+    </header>
+    <main>
+        <form id="uploadForm">
+            <label for="document">Document:</label>
+            <input type="file" id="document" required>
+            <label for="type">Document Type:</label>
+            <input type="text" id="type" required>
+            <label for="aadhaar">Aadhaar Number:</label>
+            <input type="text" id="aadhaar" required>
+            <button type="submit">Upload</button>
+        </form>
+    </main>
+    <script src="firebase-config.js"></script>
+    <script src="upload.js"></script>
+</body>
+</html>
